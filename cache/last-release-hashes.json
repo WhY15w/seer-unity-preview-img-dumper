@@ -1,0 +1,26 @@
+[
+  {
+    "file": "achievements.json",
+    "hash": "aac151d2713894c4b8ddfed95bfd317ca58920f8a6704119f1f8351a535a40f4",
+    "size": 272427,
+    "lastModified": "2025-09-18T14:52:40.548Z"
+  },
+  {
+    "file": "buff.json",
+    "hash": "9c59c724af2323bcfb4d48bdf42fe916df5d19c7d4bc4d14e16231f71d201f82",
+    "size": 464727,
+    "lastModified": "2025-09-18T14:52:40.529Z"
+  },
+  {
+    "file": "monsters.json",
+    "hash": "c012129f1cdfabbc236f04f38b860be2f3f32f30998fa6637fc2e39e60c00e24",
+    "size": 5785733,
+    "lastModified": "2025-09-18T14:52:40.496Z"
+  },
+  {
+    "file": "moves.json",
+    "hash": "9e179583128c9f3d7b0ee35257cf47914771141f226d23de896fa52ae7a2fdc2",
+    "size": 6077226,
+    "lastModified": "2025-09-18T15:00:10.716Z"
+  }
+]
