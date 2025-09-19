@@ -1,6 +1,6 @@
-# seer-unity-config-parser
+# seer-unity-preview-img-dumper
 
-赛尔号 Unity 配置包的简易解析器，用于从 Unity 资源包中提取下周预告图片。
+用于从赛尔号 Unity 资源包中提取下周预告图片。
 
 本项目为[赛尔号信息聚合页](https://seerinfo.yuyuqaq.cn/)的衍生子项目
 
