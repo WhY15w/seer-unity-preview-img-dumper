@@ -7,9 +7,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "npm run update && npm run export",
+    "start": "npm run update && npm run export && npm run merge",
     "update": "npx tsx parser/index.ts",
-    "export": "python parser/UnityFSParser.py"
+    "export": "python parser/UnityFSParser.py",
+    "merge": "python parser/MergeImg.py"
   },
   "devDependencies": {
     "@types/node": "^24.4.0",

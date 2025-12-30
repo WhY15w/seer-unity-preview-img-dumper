@@ -1,1 +1,2 @@
 UnityPy>=1.10.0
+pillow>=10.3.0

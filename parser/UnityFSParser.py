@@ -10,9 +10,14 @@ os.makedirs(export_dir, exist_ok=True)
 
 env = UnityPy.load(config_path)
 for obj in env.objects:
-    if obj.type.name in ["Sprite"]:
-        data = obj.read()
-        if not data.m_Name.startswith("000"):
-            continue
-        path = os.path.join(export_dir, "preview.png")
-        data.image.save(path)
+    if obj.type.name != "Sprite":
+        continue
+
+    data = obj.read()
+    name = data.m_Name
+
+    if not name.isdigit():
+        continue
+
+    path = os.path.join(export_dir, f"{name}.png")
+    data.image.save(path)
