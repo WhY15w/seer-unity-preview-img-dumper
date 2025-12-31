@@ -7,6 +7,11 @@ config_path = os.path.join(
 )
 export_dir = os.path.join(base_dir, "..", "img")
 os.makedirs(export_dir, exist_ok=True)
+# 删除该目录下的所有文件
+for filename in os.listdir(export_dir):
+    file_path = os.path.join(export_dir, filename)
+    if os.path.isfile(file_path):
+        os.remove(file_path)
 
 env = UnityPy.load(config_path)
 for obj in env.objects:
