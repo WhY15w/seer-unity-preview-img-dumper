@@ -11,9 +11,10 @@ export default class YooVersionManager {
     private localPath: string,
     private manifestFactory: (
       data: Buffer
-    ) => PackageManifest = new YooManifestParser().parseManifest.bind(
-      new YooManifestParser()
-    )
+    ) => PackageManifest = (() => {
+      const parser = new YooManifestParser();
+      return parser.parseManifest.bind(parser);
+    })()
   ) {}
 
   private get manifestFilePath() {

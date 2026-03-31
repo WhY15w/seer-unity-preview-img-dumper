@@ -43,7 +43,7 @@ def main():
     # 检查图片是否相似，如果相似则只保留第一张
     if are_images_similar(images):
         canvas = images[0].copy()
-        print(f"检测到所有图片 pHash 相似，仅使用第一张图片")
+        print("检测到所有图片 pHash 相似，仅使用第一张图片")
     else:
         max_width = max(img.width for img in images)
         total_height = sum(img.height for img in images)
