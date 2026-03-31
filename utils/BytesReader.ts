@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
 function cmp(a: Uint8Array, b: Uint8Array) {
   if (a.length !== b.length) return false;
   return a.every((v, i) => v === b[i]);
@@ -76,13 +75,13 @@ export class BytesReader {
     },
     public _tag = ""
   ) {
-    options?.lengthType && (this.lengthType = options.lengthType);
-    options?.littleEndian && (this.littleEndian = options.littleEndian);
-    _tag && (this._tag = `reader: ${_tag}`);
+    this.lengthType = options?.lengthType ?? GlobalLengthType.value;
+    this.littleEndian = options?.littleEndian ?? true;
+    if (_tag) this._tag = `reader: ${_tag}`;
   }
 
   seek(length: number, _tag = "") {
-    _tag &&
+    if (_tag)
       console.log(
         `${this._tag ? this._tag + ":" : ""} ${_tag} -> ${
           this.offset
@@ -256,7 +255,7 @@ export interface BundleOptions {
 
 export function bundleBytesStruct(schema: BytesStructSchema, _tag = "") {
   schema = schema.filter((s) => s !== undefined && s !== null);
-  _tag && (_tag = `bundle: ${_tag}`);
+  if (_tag) _tag = `bundle: ${_tag}`;
   let bundleLength = 0;
 
   const bundleStringWithLength = (value: string, lengthType: LengthType) => {
@@ -277,7 +276,6 @@ export function bundleBytesStruct(schema: BytesStructSchema, _tag = "") {
         return writer.byte(v ? 1 : 0);
       }
       if (typeof v === "string") {
-        // bundleStringWithLength(v, GlobalLengthType.value);
         return bundleStringWithLength(v, GlobalLengthType.value);
       }
       if (typeof v === "number") {
@@ -286,7 +284,7 @@ export function bundleBytesStruct(schema: BytesStructSchema, _tag = "") {
       if (v instanceof Uint8Array) {
         return v;
       } else if (Array.isArray(v) && typeof v[0] === "string") {
-        const [type, value, options, _value_tag = ""] = v;
+        const [type, value, options] = v;
 
         switch (type) {
           case "byte":
@@ -313,7 +311,7 @@ export function bundleBytesStruct(schema: BytesStructSchema, _tag = "") {
     .flat();
 
   bundleLength = bytes.reduce((pre, v) => pre + v.length, 0);
-  _tag && console.log(`${_tag}: total length: ${bundleLength}`);
+  if (_tag) console.log(`${_tag}: total length: ${bundleLength}`);
   const r = new Uint8Array(bundleLength);
 
   let offset = 0;

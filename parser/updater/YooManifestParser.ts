@@ -38,7 +38,7 @@ export default class YooManifestParser {
       arr.push({
         AssetPath: r.text(),
         BundleID: r.int(),
-        DependIDs: new Array(r.ushort()).fill(null).map(() => r.int()),
+        DependIDs: Array.from({ length: r.ushort() }, () => r.int()),
       });
     }
     return arr;
@@ -55,7 +55,7 @@ export default class YooManifestParser {
         FileSize: r.long(),
         IsRawFile: r.boolean(),
         LoadMethod: r.byte(),
-        ReferenceIDs: new Array(r.ushort()).fill(null).map(() => r.int()),
+        ReferenceIDs: Array.from({ length: r.ushort() }, () => r.int()),
       });
     }
     return arr;
