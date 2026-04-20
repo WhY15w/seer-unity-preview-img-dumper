@@ -9,7 +9,7 @@ Made with ❤️ by HurryWang(聿聿)
 ## 预告图片
 
 <div align="center">
-  <img src="img/preview.png" alt="res">
+  <img src="img/preview.png?t=20260403181146" alt="res">
 </div>
 
 ## 致谢

@@ -1,5 +1,5 @@
 {
-  "version": "20260327001033",
+  "version": "20260417010718",
   "items": {
     "DefaultPackage/game_prefabs_sceneobjects_aimat_effect": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ea6fdd40216b5f7e99489bea26c96578",
@@ -12,19 +12,19 @@
       "fileHash": "4715121e302eeefa7be96157a1052110"
     },
     "DefaultPackage/game_prefabs_pet_body": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/1405b5988212353c6c6b4fe473060ada",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c7fa3812d3b27cb9102f6a8db56c83e4",
       "localBasename": "game_prefabs_pet_body.bundle",
-      "fileHash": "1405b5988212353c6c6b4fe473060ada"
+      "fileHash": "c7fa3812d3b27cb9102f6a8db56c83e4"
     },
     "DefaultPackage/art_ui_mainstoryline_dialogue": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/83c3b190e359b2e1dffc0ab1b8978179",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/1732fcf3f3545450f631dca1df4fd924",
       "localBasename": "art_ui_mainstoryline_dialogue.bundle",
-      "fileHash": "83c3b190e359b2e1dffc0ab1b8978179"
+      "fileHash": "1732fcf3f3545450f631dca1df4fd924"
     },
-    "DefaultPackage/game_prefabs_year2025_bullet": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/d7b140a0591cd0220c3808f6f4b3bb43",
-      "localBasename": "game_prefabs_year2025_bullet.bundle",
-      "fileHash": "d7b140a0591cd0220c3808f6f4b3bb43"
+    "DefaultPackage/game_audios_bgm_sound_boruca02_bgm": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/fc88a958a7c612bae8cf224e9d3a4e53",
+      "localBasename": "game_audios_bgm_sound_boruca02_bgm.bundle",
+      "fileHash": "fc88a958a7c612bae8cf224e9d3a4e53"
     },
     "DefaultPackage/game_audios_effect_cavernshuttle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/99f620a726e20ef73746122cf8a69ef3",
@@ -77,9 +77,14 @@
       "fileHash": "1720dacf0f55fa6ccdee267fdcbcf415"
     },
     "DefaultPackage/game_dll_gamelogic_dll_bytes": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/31e55b9a1306ffcc9ffe8d357a667c5f",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7e44cbae07574326c4e5c07c688c858a",
       "localBasename": "game_dll_gamelogic_dll_bytes.bundle",
-      "fileHash": "31e55b9a1306ffcc9ffe8d357a667c5f"
+      "fileHash": "7e44cbae07574326c4e5c07c688c858a"
+    },
+    "DefaultPackage/game_dll_metahotfix_dll_bytes": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8b5fc0a99e4c9dfed703865b973da976",
+      "localBasename": "game_dll_metahotfix_dll_bytes.bundle",
+      "fileHash": "8b5fc0a99e4c9dfed703865b973da976"
     },
     "DefaultPackage/game_dll_unityengine_coremodule_dll_bytes": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/756d6a397ac7da00647a897f43f5e076",
@@ -87,14 +92,14 @@
       "fileHash": "756d6a397ac7da00647a897f43f5e076"
     },
     "DefaultPackage/game_dll_weeklyupdate_dll_bytes": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/34b313ba6b89fba6543bc7a83ba08981",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/995ec10bfdf87ced321b197974de63fd",
       "localBasename": "game_dll_weeklyupdate_dll_bytes.bundle",
-      "fileHash": "34b313ba6b89fba6543bc7a83ba08981"
+      "fileHash": "995ec10bfdf87ced321b197974de63fd"
     },
     "DefaultPackage/game_configs_clientcustom": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/1788db68ce39baf1b7ebac8f19d92ad2",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8809ee4e711e1bffa3bcfa16ddd51aa3",
       "localBasename": "game_configs_clientcustom.bundle",
-      "fileHash": "1788db68ce39baf1b7ebac8f19d92ad2"
+      "fileHash": "8809ee4e711e1bffa3bcfa16ddd51aa3"
     },
     "DefaultPackage/game_spinedata_seafishingactivity_fish1": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/930bc3a089a78a18930f8e66bc546221",
@@ -121,45 +126,65 @@
       "localBasename": "game_spine_cannonlaunch.bundle",
       "fileHash": "b058ced104add0686e387d7adfb6d192"
     },
-    "DefaultPackage/art_ui_common": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5804a08e569f60d977ad82ef7e747de5",
-      "localBasename": "art_ui_common.bundle",
-      "fileHash": "5804a08e569f60d977ad82ef7e747de5"
-    },
     "DefaultPackage/art_ui_background_autocard_pet_bg": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8187e31e3e8072b0082925bd33ffe61f",
       "localBasename": "art_ui_background_autocard_pet_bg.bundle",
       "fileHash": "8187e31e3e8072b0082925bd33ffe61f"
     },
-    "DefaultPackage/art_effects_texture_texture_common": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/90cd99ae0c936c11579946d0dda953b2",
-      "localBasename": "art_effects_texture_texture_common.bundle",
-      "fileHash": "90cd99ae0c936c11579946d0dda953b2"
+    "DefaultPackage/art_ui_background_peakjihad_saijitag": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/eb3b232402a5999e1fb7af5039e1fe25",
+      "localBasename": "art_ui_background_peakjihad_saijitag.bundle",
+      "fileHash": "eb3b232402a5999e1fb7af5039e1fe25"
+    },
+    "DefaultPackage/art_ui_background_peakjihadorder_bg_jinjie": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/94f5d45d2881dfffb0857c7b182a8584",
+      "localBasename": "art_ui_background_peakjihadorder_bg_jinjie.bundle",
+      "fileHash": "94f5d45d2881dfffb0857c7b182a8584"
+    },
+    "DefaultPackage/art_ui_background_peakjihadordermain_bg": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/503a0c197887c2f544a2eaaefa7cf986",
+      "localBasename": "art_ui_background_peakjihadordermain_bg.bundle",
+      "fileHash": "503a0c197887c2f544a2eaaefa7cf986"
+    },
+    "DefaultPackage/art_ui_background_peakjihadordermain_img_name": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a6f6002c65a36f374c5f3efaf7eb7692",
+      "localBasename": "art_ui_background_peakjihadordermain_img_name.bundle",
+      "fileHash": "a6f6002c65a36f374c5f3efaf7eb7692"
+    },
+    "DefaultPackage/art_ui_background_peakjihadordermain_img_role": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8837301d07c823e7848440316c7a140a",
+      "localBasename": "art_ui_background_peakjihadordermain_img_role.bundle",
+      "fileHash": "8837301d07c823e7848440316c7a140a"
     },
     "DefaultPackage/art_effects_texture_texture_ui": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/d26dbd1f8a90c76b526591d0968869f1",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/29dbd93c747da5d8ae68ac99e4c84be7",
       "localBasename": "art_effects_texture_texture_ui.bundle",
-      "fileHash": "d26dbd1f8a90c76b526591d0968869f1"
+      "fileHash": "29dbd93c747da5d8ae68ac99e4c84be7"
     },
     "DefaultPackage/game_videos_welcome_loop": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/69e2520499b0e38a8f5218a075e79d48",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5409ba25aa7860cdc1bcd044b2930b55",
       "localBasename": "game_videos_welcome_loop.bundle",
-      "fileHash": "69e2520499b0e38a8f5218a075e79d48"
+      "fileHash": "5409ba25aa7860cdc1bcd044b2930b55"
     },
     "DefaultPackage/game_videos_welcome_loop_vp8": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e39f80fc70d0cc83b77dafc13808de51",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2c73ce0f9023e4b34516ecad8e0ea05e",
       "localBasename": "game_videos_welcome_loop_vp8.bundle",
-      "fileHash": "e39f80fc70d0cc83b77dafc13808de51"
+      "fileHash": "2c73ce0f9023e4b34516ecad8e0ea05e"
+    },
+    "DefaultPackage/art_ui_mainstoryline_image_res_video_boruca_01": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6a9ee940920d793f37d3ddce920f945c",
+      "localBasename": "art_ui_mainstoryline_image_res_video_boruca_01.bundle",
+      "fileHash": "6a9ee940920d793f37d3ddce920f945c"
     },
     "DefaultPackage/game_font": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0d8ce339e18963ebe49d25839a15abc2",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/d86ec551afee5b070b947c9e52f045ea",
       "localBasename": "game_font.bundle",
-      "fileHash": "0d8ce339e18963ebe49d25839a15abc2"
+      "fileHash": "d86ec551afee5b070b947c9e52f045ea"
     },
     "DefaultPackage/art_ui_avatar_frame": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7e3a3ca7447e12cb1aba859d1794b28c",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/188953ee0f9ca8e3cc312b3b621c9c34",
       "localBasename": "art_ui_avatar_frame.bundle",
-      "fileHash": "7e3a3ca7447e12cb1aba859d1794b28c"
+      "fileHash": "188953ee0f9ca8e3cc312b3b621c9c34"
     },
     "DefaultPackage/art_ui_avatar_head": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a6991ff9a7d7c5e798e0eb1f02590abc",
@@ -171,15 +196,10 @@
       "localBasename": "art_ui_battleeffect_abnormal.bundle",
       "fileHash": "777c219b0df90d5deca040ab6487e79f"
     },
-    "DefaultPackage/art_ui_battleeffect_headframe": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f811e1eb7e000c9d16354fab769524cd",
-      "localBasename": "art_ui_battleeffect_headframe.bundle",
-      "fileHash": "f811e1eb7e000c9d16354fab769524cd"
-    },
     "DefaultPackage/art_ui_battleeffect_signbuff": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/3b5d2dd6b8363e3a17f587cb85b9bd6d",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b7d5215e68905ff8d12193f4f974c5df",
       "localBasename": "art_ui_battleeffect_signbuff.bundle",
-      "fileHash": "3b5d2dd6b8363e3a17f587cb85b9bd6d"
+      "fileHash": "b7d5215e68905ff8d12193f4f974c5df"
     },
     "DefaultPackage/art_ui_expression": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a5b09b001441fcba415e4362aee0b341",
@@ -202,54 +222,79 @@
       "fileHash": "2c343046e757c71f968eae771313089e"
     },
     "DefaultPackage/art_ui_namecard_smallcard": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/fe253bf319b290f1cad676bafb9c5e9a",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e2e2a9b835b713d55fcd1431a8654192",
       "localBasename": "art_ui_namecard_smallcard.bundle",
-      "fileHash": "fe253bf319b290f1cad676bafb9c5e9a"
+      "fileHash": "e2e2a9b835b713d55fcd1431a8654192"
     },
     "DefaultPackage/art_ui_pettype": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c5ab1f1a61e0284c8961725c0edda3f4",
       "localBasename": "art_ui_pettype.bundle",
       "fileHash": "c5ab1f1a61e0284c8961725c0edda3f4"
     },
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_half_0.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/add12909636dcf30e6476214fa100476",
+      "localBasename": "defaultpackage_assets_art_ui_assets_pet_half_0.bundle.bundle",
+      "fileHash": "add12909636dcf30e6476214fa100476"
+    },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_half_18.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/324700a23f2266adfa410660c0641ff4",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c87558a0dcf55a4aaa00688068e1819c",
       "localBasename": "defaultpackage_assets_art_ui_assets_pet_half_18.bundle.bundle",
-      "fileHash": "324700a23f2266adfa410660c0641ff4"
+      "fileHash": "c87558a0dcf55a4aaa00688068e1819c"
+    },
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_half_19.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b132b1fb587125dc9bcf7d09dc50ff09",
+      "localBasename": "defaultpackage_assets_art_ui_assets_pet_half_19.bundle.bundle",
+      "fileHash": "b132b1fb587125dc9bcf7d09dc50ff09"
+    },
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_half_12.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f576f65dd1539ddb7b41a96d0ff86f06",
+      "localBasename": "defaultpackage_assets_art_ui_assets_pet_half_12.bundle.bundle",
+      "fileHash": "f576f65dd1539ddb7b41a96d0ff86f06"
     },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_head_19.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/04a878ac7df7e7ff4c36fcce16f8af39",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/092f85a11cf9709708b1208530e58b6e",
       "localBasename": "defaultpackage_assets_art_ui_assets_pet_head_19.bundle.bundle",
-      "fileHash": "04a878ac7df7e7ff4c36fcce16f8af39"
+      "fileHash": "092f85a11cf9709708b1208530e58b6e"
+    },
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_pve_entry_monster_level_22.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/592803120900d80beb107cef9c058436",
+      "localBasename": "defaultpackage_assets_art_ui_assets_pve_entry_monster_level_22.bundle.bundle",
+      "fileHash": "592803120900d80beb107cef9c058436"
     },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_pve_entry_monster_level_21.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/30fb46dbaf768fe6e5b067dd545d5b93",
       "localBasename": "defaultpackage_assets_art_ui_assets_pve_entry_monster_level_21.bundle.bundle",
       "fileHash": "30fb46dbaf768fe6e5b067dd545d5b93"
     },
-    "DefaultPackage/defaultpackage_assets_art_ui_assets_pve_entry_monster_level_22.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/37d6969049c4c2852fa4a4e86c443855",
-      "localBasename": "defaultpackage_assets_art_ui_assets_pve_entry_monster_level_22.bundle.bundle",
-      "fileHash": "37d6969049c4c2852fa4a4e86c443855"
-    },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_item_doodle_19.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/30807062c17c6b9c70cd2c80282f0d5a",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0405c5011d6901dd7a02f037c1b9e214",
       "localBasename": "defaultpackage_assets_art_ui_assets_item_doodle_19.bundle.bundle",
-      "fileHash": "30807062c17c6b9c70cd2c80282f0d5a"
+      "fileHash": "0405c5011d6901dd7a02f037c1b9e214"
+    },
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_item_petitem_4.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/40c795dfb0225b7eddef11cf83aa1ede",
+      "localBasename": "defaultpackage_assets_art_ui_assets_item_petitem_4.bundle.bundle",
+      "fileHash": "40c795dfb0225b7eddef11cf83aa1ede"
+    },
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_body_19.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/9020fb535b0e6d98ec4e976609cc47af",
+      "localBasename": "defaultpackage_assets_art_ui_assets_pet_body_19.bundle.bundle",
+      "fileHash": "9020fb535b0e6d98ec4e976609cc47af"
     },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_body_65.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/89468f39fe5d351973e5caee717a48e1",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/41556c934f00dd3d05b69fd29ce0fcd2",
       "localBasename": "defaultpackage_assets_art_ui_assets_pet_body_65.bundle.bundle",
-      "fileHash": "89468f39fe5d351973e5caee717a48e1"
+      "fileHash": "41556c934f00dd3d05b69fd29ce0fcd2"
     },
-    "DefaultPackage/art_ui_mainstoryline_image_chaptericon": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/36468f73a52d6b1bf2eb9edcab8b9b04",
-      "localBasename": "art_ui_mainstoryline_image_chaptericon.bundle",
-      "fileHash": "36468f73a52d6b1bf2eb9edcab8b9b04"
+    "DefaultPackage/defaultpackage_assets_art_ui_assets_pet_body_66.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4b4112fbf3328ea93d0ee1134012fe26",
+      "localBasename": "defaultpackage_assets_art_ui_assets_pet_body_66.bundle.bundle",
+      "fileHash": "4b4112fbf3328ea93d0ee1134012fe26"
     },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_mainstoryline_image_chapterpet_4.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0ecf7451677ec9bfef8265dcc96c9a8c",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4e234e09a3fdf18122544aff682c313f",
       "localBasename": "defaultpackage_assets_art_ui_assets_mainstoryline_image_chapterpet_4.bundle.bundle",
-      "fileHash": "0ecf7451677ec9bfef8265dcc96c9a8c"
+      "fileHash": "4e234e09a3fdf18122544aff682c313f"
     },
     "DefaultPackage/art_ui_mainstoryline_image_res_bgcg_2026wil01_cg": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b27e1bfeedf39693758a1b2a4adb90b9",
@@ -291,6 +336,26 @@
       "localBasename": "art_ui_mainstoryline_image_res_bgcg_2026yuris08_bg.bundle",
       "fileHash": "c1740eb0174e10ff3ee7ff7c77b8730c"
     },
+    "DefaultPackage/art_ui_mainstoryline_image_res_bgcg_boruca03_cg": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7e1158c116a032a562f5c4241404ef1e",
+      "localBasename": "art_ui_mainstoryline_image_res_bgcg_boruca03_cg.bundle",
+      "fileHash": "7e1158c116a032a562f5c4241404ef1e"
+    },
+    "DefaultPackage/art_ui_mainstoryline_image_res_bgcg_boruca05_bg": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/035178062d6d24789f912b77eea6dc8c",
+      "localBasename": "art_ui_mainstoryline_image_res_bgcg_boruca05_bg.bundle",
+      "fileHash": "035178062d6d24789f912b77eea6dc8c"
+    },
+    "DefaultPackage/art_ui_mainstoryline_image_res_bgcg_boruca06_bg": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4e3e540a419fc24a37a0fdb4bac79379",
+      "localBasename": "art_ui_mainstoryline_image_res_bgcg_boruca06_bg.bundle",
+      "fileHash": "4e3e540a419fc24a37a0fdb4bac79379"
+    },
+    "DefaultPackage/art_ui_mainstoryline_image_res_bgcg_boruca07_bg": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f17bc74aa7ef243256479044ea4b3649",
+      "localBasename": "art_ui_mainstoryline_image_res_bgcg_boruca07_bg.bundle",
+      "fileHash": "f17bc74aa7ef243256479044ea4b3649"
+    },
     "DefaultPackage/art_ui_mainstoryline_image_res_bgcg_qxc01_bg": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6dd49ad253c398dd6efd6c1e1108e45f",
       "localBasename": "art_ui_mainstoryline_image_res_bgcg_qxc01_bg.bundle",
@@ -306,10 +371,15 @@
       "localBasename": "art_ui_mainstoryline_image_res_bgcg_qxc03_bg.bundle",
       "fileHash": "74b0248d16c48d687a41bfd031dfe305"
     },
+    "DefaultPackage/art_ui_mainstoryline_image_res_normal": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/01ed41cffc69cefd2be20f0f8e5924fd",
+      "localBasename": "art_ui_mainstoryline_image_res_normal.bundle",
+      "fileHash": "01ed41cffc69cefd2be20f0f8e5924fd"
+    },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_mainstoryline_image_res_role_16.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8b2ed8dcc6da215fd20c9a132921cf08",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b7f92884409c289a3ddd050e09df88b6",
       "localBasename": "defaultpackage_assets_art_ui_assets_mainstoryline_image_res_role_16.bundle.bundle",
-      "fileHash": "8b2ed8dcc6da215fd20c9a132921cf08"
+      "fileHash": "b7f92884409c289a3ddd050e09df88b6"
     },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_countermark_icon_6.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/eca15b602d7d6a6e9cc737bd99d4464b",
@@ -326,25 +396,20 @@
       "localBasename": "art_ui_namecard_cardbg_50.bundle",
       "fileHash": "4431f313d83acbf09def586aa4f3c20d"
     },
+    "DefaultPackage/art_ui_namecard_cardbg_51": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2f58a3f64f67bde6cc67fae25019d81d",
+      "localBasename": "art_ui_namecard_cardbg_51.bundle",
+      "fileHash": "2f58a3f64f67bde6cc67fae25019d81d"
+    },
     "DefaultPackage/art_ui_achieve_title": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e605a80a88a3851d5cdbbbf6037b682c",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6f1a510da846a47ba4f4b61d172566d1",
       "localBasename": "art_ui_achieve_title.bundle",
-      "fileHash": "e605a80a88a3851d5cdbbbf6037b682c"
+      "fileHash": "6f1a510da846a47ba4f4b61d172566d1"
     },
     "DefaultPackage/defaultpackage_assets_art_ui_assets_achieve_icon_4.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e9ef9f0d6dd830293ea6771882662968",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5bb83f8ee405e5ad3245fcde07af3b58",
       "localBasename": "defaultpackage_assets_art_ui_assets_achieve_icon_4.bundle.bundle",
-      "fileHash": "e9ef9f0d6dd830293ea6771882662968"
-    },
-    "DefaultPackage/art_ui_mainstoryline_image_res_head": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c9d2f05fa27a581300fd98d5191be36e",
-      "localBasename": "art_ui_mainstoryline_image_res_head.bundle",
-      "fileHash": "c9d2f05fa27a581300fd98d5191be36e"
-    },
-    "DefaultPackage/art_ui_mainstoryline_image_chapterimg": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/00014482a937dfd85d0ed9404a1cec56",
-      "localBasename": "art_ui_mainstoryline_image_chapterimg.bundle",
-      "fileHash": "00014482a937dfd85d0ed9404a1cec56"
+      "fileHash": "5bb83f8ee405e5ad3245fcde07af3b58"
     },
     "DefaultPackage/art_ui_mainstoryline_image_chapterlogo": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c53667c4b6a6e9f6e37bc5fdc90e0d44",
@@ -357,24 +422,24 @@
       "fileHash": "de38e817df80aa74c1dbb0801b9fdd7c"
     },
     "DefaultPackage/unityshaders": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/770b3d31f3ec289211ff2741360fa0e4",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ac1391e77d00b4f509db5a2b8a1078b1",
       "localBasename": "unityshaders.bundle",
-      "fileHash": "770b3d31f3ec289211ff2741360fa0e4"
+      "fileHash": "ac1391e77d00b4f509db5a2b8a1078b1"
     },
     "DefaultPackage/art_ui_wildmonster_4884": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/abc2f92086a6abe101774dea26857698",
       "localBasename": "art_ui_wildmonster_4884.bundle",
       "fileHash": "abc2f92086a6abe101774dea26857698"
     },
+    "DefaultPackage/art_ui_wildmonster_4896": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7204c8b53131406b6640b65d7423fb42",
+      "localBasename": "art_ui_wildmonster_4896.bundle",
+      "fileHash": "7204c8b53131406b6640b65d7423fb42"
+    },
     "DefaultPackage/art_ui_item_cloth_swf_1300751": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b9facdd4a0e8ec2bf7407920bf5e9e61",
       "localBasename": "art_ui_item_cloth_swf_1300751.bundle",
       "fileHash": "b9facdd4a0e8ec2bf7407920bf5e9e61"
-    },
-    "DefaultPackage/game_scenes_autocard": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6d43083a8295b3029e4bfd52e3d20561",
-      "localBasename": "game_scenes_autocard.bundle",
-      "fileHash": "6d43083a8295b3029e4bfd52e3d20561"
     },
     "DefaultPackage/game_scenes_autocard_02": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ebe7cfa62c189f720f030eed7db488c1",
@@ -385,11 +450,6 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0a95addb701d3d72c4b106a37f1b36ce",
       "localBasename": "game_scenes_hall_bh_hall.bundle",
       "fileHash": "0a95addb701d3d72c4b106a37f1b36ce"
-    },
-    "DefaultPackage/game_scenes_hall_hall": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c09fd781df02fcaa4381a3e17e858658",
-      "localBasename": "game_scenes_hall_hall.bundle",
-      "fileHash": "c09fd781df02fcaa4381a3e17e858658"
     },
     "DefaultPackage/game_scenes_map_4": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/072a8615e686845cb90b5316dc491807",
@@ -1836,6 +1896,11 @@
       "localBasename": "game_scenes_map_2169.bundle",
       "fileHash": "f79153027519d3a10e4541e70c60de32"
     },
+    "DefaultPackage/game_scenes_map_2171": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4fc157413cc99e92a17c58742d6dee86",
+      "localBasename": "game_scenes_map_2171.bundle",
+      "fileHash": "4fc157413cc99e92a17c58742d6dee86"
+    },
     "DefaultPackage/game_scenes_map_3228": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/27ae5652de3c28fd34f2d7fd2e0b750b",
       "localBasename": "game_scenes_map_3228.bundle",
@@ -1856,85 +1921,45 @@
       "localBasename": "game_scenes_scene_sc_pve.bundle",
       "fileHash": "671b5b70a3c6799b91b2c2c1b84b0b89"
     },
-    "DefaultPackage/game_scenes_scene_sc_spaceship": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8d93f2968dbb4785f65a550ba53b2193",
-      "localBasename": "game_scenes_scene_sc_spaceship.bundle",
-      "fileHash": "8d93f2968dbb4785f65a550ba53b2193"
-    },
     "DefaultPackage/game_ui_activitycenter": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/581a3fa1bcb484ab74c3827582af259e",
       "localBasename": "game_ui_activitycenter.bundle",
       "fileHash": "581a3fa1bcb484ab74c3827582af259e"
     },
     "DefaultPackage/game_ui_activitylistpreview": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c21a4989705087e89bb3f9ad20507eb3",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ee85eec367005cffa3f949a791694536",
       "localBasename": "game_ui_activitylistpreview.bundle",
-      "fileHash": "c21a4989705087e89bb3f9ad20507eb3"
-    },
-    "DefaultPackage/game_ui_announcement": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0ba4fb28e770ce2967bf2899c15cd1df",
-      "localBasename": "game_ui_announcement.bundle",
-      "fileHash": "0ba4fb28e770ce2967bf2899c15cd1df"
+      "fileHash": "ee85eec367005cffa3f949a791694536"
     },
     "DefaultPackage/game_ui_aprilfoolsdayskinsellpanel": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/dc6eb7b43dba465d93a86652a0fde5f8",
       "localBasename": "game_ui_aprilfoolsdayskinsellpanel.bundle",
       "fileHash": "dc6eb7b43dba465d93a86652a0fde5f8"
     },
-    "DefaultPackage/game_ui_aprilfoolsdayskinwarmpanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/9bf58eb524b275fc559438653877407b",
-      "localBasename": "game_ui_aprilfoolsdayskinwarmpanel.bundle",
-      "fileHash": "9bf58eb524b275fc559438653877407b"
+    "DefaultPackage/game_ui_ashespathentryactivity": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7aed5155238e4449e47e6a226a3b9fc5",
+      "localBasename": "game_ui_ashespathentryactivity.bundle",
+      "fileHash": "7aed5155238e4449e47e6a226a3b9fc5"
     },
-    "DefaultPackage/game_ui_autocard": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ba99e082e23726b9f50b41d8792a41e9",
-      "localBasename": "game_ui_autocard.bundle",
-      "fileHash": "ba99e082e23726b9f50b41d8792a41e9"
+    "DefaultPackage/game_ui_ashespathentrypanel": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/3832d73054d70abb48e5ff2ad27141a7",
+      "localBasename": "game_ui_ashespathentrypanel.bundle",
+      "fileHash": "3832d73054d70abb48e5ff2ad27141a7"
     },
-    "DefaultPackage/game_ui_autocardactivateentrance": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/3e73b60c8ef50a539f0c1743d7fcfe79",
-      "localBasename": "game_ui_autocardactivateentrance.bundle",
-      "fileHash": "3e73b60c8ef50a539f0c1743d7fcfe79"
-    },
-    "DefaultPackage/game_ui_autocardactivationcode": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2c02ce2fc054ff029bcc888ce532e6e0",
-      "localBasename": "game_ui_autocardactivationcode.bundle",
-      "fileHash": "2c02ce2fc054ff029bcc888ce532e6e0"
-    },
-    "DefaultPackage/game_ui_autocardactivitycenter": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/62be3ad7ade21c26bf83f6d9162b087a",
-      "localBasename": "game_ui_autocardactivitycenter.bundle",
-      "fileHash": "62be3ad7ade21c26bf83f6d9162b087a"
-    },
-    "DefaultPackage/game_ui_autocardfristappoint": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/78c9a130fa2a74b059f88620c6aba2e6",
-      "localBasename": "game_ui_autocardfristappoint.bundle",
-      "fileHash": "78c9a130fa2a74b059f88620c6aba2e6"
+    "DefaultPackage/game_ui_aurumminershow": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c1e541c1e762377a21e57f3d2588f0bf",
+      "localBasename": "game_ui_aurumminershow.bundle",
+      "fileHash": "c1e541c1e762377a21e57f3d2588f0bf"
     },
     "DefaultPackage/game_ui_autocardgetskin": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5f22e0bd0a2c7aab89417066e741edcc",
       "localBasename": "game_ui_autocardgetskin.bundle",
       "fileHash": "5f22e0bd0a2c7aab89417066e741edcc"
     },
-    "DefaultPackage/game_ui_autocardhandbook": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0d79e911af044c7485f7634bc1fbdcc7",
-      "localBasename": "game_ui_autocardhandbook.bundle",
-      "fileHash": "0d79e911af044c7485f7634bc1fbdcc7"
-    },
     "DefaultPackage/game_ui_autocardinvitation": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b103ec223c8448e3bc3109e44f0c7eb1",
       "localBasename": "game_ui_autocardinvitation.bundle",
       "fileHash": "b103ec223c8448e3bc3109e44f0c7eb1"
-    },
-    "DefaultPackage/game_ui_autocardrulepanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f673433bafa4dab5adbce16da3064e96",
-      "localBasename": "game_ui_autocardrulepanel.bundle",
-      "fileHash": "f673433bafa4dab5adbce16da3064e96"
-    },
-    "DefaultPackage/game_ui_autocardselectfirstpetpanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b6d606d881d81fe8714afae3ae1939d8",
-      "localBasename": "game_ui_autocardselectfirstpetpanel.bundle",
-      "fileHash": "b6d606d881d81fe8714afae3ae1939d8"
     },
     "DefaultPackage/game_ui_autocardselectskill": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/985f6103b7090c80f8c8d3027b6cc894",
@@ -1952,9 +1977,9 @@
       "fileHash": "b7b56c5c15ee316c53c00240c8e2987d"
     },
     "DefaultPackage/game_ui_bagtower": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/82ae8fe8b7388fd489c8c4af8ff4ffaf",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/25fa3542aa174fc4709ed16b50104f9f",
       "localBasename": "game_ui_bagtower.bundle",
-      "fileHash": "82ae8fe8b7388fd489c8c4af8ff4ffaf"
+      "fileHash": "25fa3542aa174fc4709ed16b50104f9f"
     },
     "DefaultPackage/game_ui_bagtoweractivity": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/67ca740255a1274c4de6d1272e98defb",
@@ -1966,10 +1991,10 @@
       "localBasename": "game_ui_battle.bundle",
       "fileHash": "6149d8b27565e2c5cab0b03d94cc85ad"
     },
-    "DefaultPackage/game_ui_battlerecord": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a5ada385d51fdab09279c8b5e7c0f893",
-      "localBasename": "game_ui_battlerecord.bundle",
-      "fileHash": "a5ada385d51fdab09279c8b5e7c0f893"
+    "DefaultPackage/game_ui_boruca_2_window": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0fd4537c49c6390c5b00ff2d692299da",
+      "localBasename": "game_ui_boruca_2_window.bundle",
+      "fileHash": "0fd4537c49c6390c5b00ff2d692299da"
     },
     "DefaultPackage/game_ui_campfightpanel": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/73f4134a48baaa56be660f8b7f0b2401",
@@ -1986,6 +2011,11 @@
       "localBasename": "game_ui_cangyuecomplete.bundle",
       "fileHash": "3e0ff05dded1d670b08ad83ca755ccaf"
     },
+    "DefaultPackage/game_ui_carrygame": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/d8826d94ad1a4e9fefaff2391a7d4538",
+      "localBasename": "game_ui_carrygame.bundle",
+      "fileHash": "d8826d94ad1a4e9fefaff2391a7d4538"
+    },
     "DefaultPackage/game_ui_cavernshuttle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6becc7019e4b47a3e8308d28a865c319",
       "localBasename": "game_ui_cavernshuttle.bundle",
@@ -2001,11 +2031,6 @@
       "localBasename": "game_ui_chaostias.bundle",
       "fileHash": "0a804bab1aad5ef39b5db81bc1f7c958"
     },
-    "DefaultPackage/game_ui_cipherjigsawpanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/978d1ee8c42cca0a26869555c725cc9f",
-      "localBasename": "game_ui_cipherjigsawpanel.bundle",
-      "fileHash": "978d1ee8c42cca0a26869555c725cc9f"
-    },
     "DefaultPackage/game_ui_classicpetassemblepanel": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5f85cc610c629a20daf5cc8fbc9890da",
       "localBasename": "game_ui_classicpetassemblepanel.bundle",
@@ -2016,15 +2041,10 @@
       "localBasename": "game_ui_clicksfpsactivity.bundle",
       "fileHash": "cefdd3e8a3a2650c2e4b1a04ee28ada3"
     },
-    "DefaultPackage/game_ui_clickspeedactivity": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/63e94a96cbef7a309134c02540936cf9",
-      "localBasename": "game_ui_clickspeedactivity.bundle",
-      "fileHash": "63e94a96cbef7a309134c02540936cf9"
-    },
-    "DefaultPackage/game_ui_competition": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/17edba30991c37961eb2f68186e29a21",
-      "localBasename": "game_ui_competition.bundle",
-      "fileHash": "17edba30991c37961eb2f68186e29a21"
+    "DefaultPackage/game_ui_crewhandbook": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/fc3ff7ef946489373cb4bee2a9602382",
+      "localBasename": "game_ui_crewhandbook.bundle",
+      "fileHash": "fc3ff7ef946489373cb4bee2a9602382"
     },
     "DefaultPackage/game_ui_dangoactivity": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/cc82264fca5f6846a849f50188818c39",
@@ -2036,10 +2056,20 @@
       "localBasename": "game_ui_dangoslotmain.bundle",
       "fileHash": "4ce3e510551132f8a0326f4c08eaa994"
     },
+    "DefaultPackage/game_ui_diamondobligatiotips": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e0db096cfab250a2d9e8a7816d17b03b",
+      "localBasename": "game_ui_diamondobligatiotips.bundle",
+      "fileHash": "e0db096cfab250a2d9e8a7816d17b03b"
+    },
     "DefaultPackage/game_ui_explorezizaitian": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b07a5a8d3cc1667771681b13d4c54e9b",
       "localBasename": "game_ui_explorezizaitian.bundle",
       "fileHash": "b07a5a8d3cc1667771681b13d4c54e9b"
+    },
+    "DefaultPackage/game_ui_expressjump": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/26ae88293d15e626e47802d021a52644",
+      "localBasename": "game_ui_expressjump.bundle",
+      "fileHash": "26ae88293d15e626e47802d021a52644"
     },
     "DefaultPackage/game_ui_feiliangcompletemainpanel": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6acfae36ca7458f0ddc78b4c64e9406f",
@@ -2060,6 +2090,11 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7419044eed8333b5443fd44858a3afca",
       "localBasename": "game_ui_fourteenyearsign.bundle",
       "fileHash": "7419044eed8333b5443fd44858a3afca"
+    },
+    "DefaultPackage/game_ui_fourteen‌yearsellsk": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c2da528d3646f71367924dc6f99a229a",
+      "localBasename": "game_ui_fourteen‌yearsellsk.bundle",
+      "fileHash": "c2da528d3646f71367924dc6f99a229a"
     },
     "DefaultPackage/game_ui_friend": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/9eed347e17f6c11cba64188959a6706d",
@@ -2091,10 +2126,10 @@
       "localBasename": "game_ui_getdyspanelmain.bundle",
       "fileHash": "cb4b0125371eb4d621dda0faf1d828bd"
     },
-    "DefaultPackage/game_ui_getshangguyanshoupanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/71c4efbe329c1c4733dbd100b0a74289",
-      "localBasename": "game_ui_getshangguyanshoupanel.bundle",
-      "fileHash": "71c4efbe329c1c4733dbd100b0a74289"
+    "DefaultPackage/game_ui_gettxlh": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e06e372084ab821b89ec9d7f50307135",
+      "localBasename": "game_ui_gettxlh.bundle",
+      "fileHash": "e06e372084ab821b89ec9d7f50307135"
     },
     "DefaultPackage/game_ui_goldeneggsmashingentry": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/850770c61083419e0775afd1021ac47e",
@@ -2146,10 +2181,10 @@
       "localBasename": "game_ui_hundunailan.bundle",
       "fileHash": "a8697c92d4a0dc36f71e9ee0d748db82"
     },
-    "DefaultPackage/game_ui_itemwarehouse": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/bd1b65fec0d2a4af67804879acdac933",
-      "localBasename": "game_ui_itemwarehouse.bundle",
-      "fileHash": "bd1b65fec0d2a4af67804879acdac933"
+    "DefaultPackage/game_ui_icecontractaksia": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c6785f8602d6652a7b660657b8de331d",
+      "localBasename": "game_ui_icecontractaksia.bundle",
+      "fileHash": "c6785f8602d6652a7b660657b8de331d"
     },
     "DefaultPackage/game_ui_jiyuanskinpanel": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e0cd0ddaca26c91b1aeb9e60427cad5a",
@@ -2176,11 +2211,6 @@
       "localBasename": "game_ui_liandongbanner1.bundle",
       "fileHash": "ba0ad3e82b7265c0b43bbf1cfceb2e35"
     },
-    "DefaultPackage/game_ui_lieaonidaskinsell": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/0ee4e2398d7a5d48ff0261825f1f173b",
-      "localBasename": "game_ui_lieaonidaskinsell.bundle",
-      "fileHash": "0ee4e2398d7a5d48ff0261825f1f173b"
-    },
     "DefaultPackage/game_ui_luckyrocketgameentry": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e50d77dc60f99704665aba1a7528180a",
       "localBasename": "game_ui_luckyrocketgameentry.bundle",
@@ -2197,14 +2227,9 @@
       "fileHash": "d8acaf470e906a64504246bb3ddb3af7"
     },
     "DefaultPackage/game_ui_mainpanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f226ecdb2939c50494d8e0853b325a3f",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/dbbcf794c22eed23133e90be2068d030",
       "localBasename": "game_ui_mainpanel.bundle",
-      "fileHash": "f226ecdb2939c50494d8e0853b325a3f"
-    },
-    "DefaultPackage/game_ui_mall": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/33891ac178584a6fe8506206a9f257b5",
-      "localBasename": "game_ui_mall.bundle",
-      "fileHash": "33891ac178584a6fe8506206a9f257b5"
+      "fileHash": "dbbcf794c22eed23133e90be2068d030"
     },
     "DefaultPackage/game_ui_markdraw": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6ec2d79e49bec379bdc0d4669be0cc36",
@@ -2221,25 +2246,15 @@
       "localBasename": "game_ui_matchgame.bundle",
       "fileHash": "473285d9495914606917b7d6b1a9d57a"
     },
-    "DefaultPackage/game_ui_mehwiitlegendskinsell": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7691ea4dfa4c13b35bf29f8fc02d9ef3",
-      "localBasename": "game_ui_mehwiitlegendskinsell.bundle",
-      "fileHash": "7691ea4dfa4c13b35bf29f8fc02d9ef3"
-    },
-    "DefaultPackage/game_ui_minicivilizationgameplay": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/da30cd6ad426856c10909bf21bbd2410",
-      "localBasename": "game_ui_minicivilizationgameplay.bundle",
-      "fileHash": "da30cd6ad426856c10909bf21bbd2410"
-    },
     "DefaultPackage/game_ui_mintlevelsign": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5cdfdb9e40734d229884ec1d73f2bd33",
       "localBasename": "game_ui_mintlevelsign.bundle",
       "fileHash": "5cdfdb9e40734d229884ec1d73f2bd33"
     },
     "DefaultPackage/game_ui_mintmarkelevarereward": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/dacc959f5bf539b6f8ff8f85517258cb",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/615cc31b3b747dbdffe3d277b3fe1328",
       "localBasename": "game_ui_mintmarkelevarereward.bundle",
-      "fileHash": "dacc959f5bf539b6f8ff8f85517258cb"
+      "fileHash": "615cc31b3b747dbdffe3d277b3fe1328"
     },
     "DefaultPackage/game_ui_mldsmain": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/eeaa0e3f9533367d628d7350e6e558f2",
@@ -2251,10 +2266,15 @@
       "localBasename": "game_ui_mlemain.bundle",
       "fileHash": "5a7920eeb207b0b3ad95442ba0fd850d"
     },
-    "DefaultPackage/game_ui_newpeakpetsell": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a8c5637ccb80a0880cfbb7f255cb0d12",
-      "localBasename": "game_ui_newpeakpetsell.bundle",
-      "fileHash": "a8c5637ccb80a0880cfbb7f255cb0d12"
+    "DefaultPackage/game_ui_newseasoncompletepanel": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/835ab932ffdfdc8e4d6923e55d95dbd4",
+      "localBasename": "game_ui_newseasoncompletepanel.bundle",
+      "fileHash": "835ab932ffdfdc8e4d6923e55d95dbd4"
+    },
+    "DefaultPackage/game_ui_newskinstore": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e6f7443819666c88a8ab746600445468",
+      "localBasename": "game_ui_newskinstore.bundle",
+      "fileHash": "e6f7443819666c88a8ab746600445468"
     },
     "DefaultPackage/game_ui_newtermseating": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2a81043d736ac3e1b976b405c54146d3",
@@ -2276,20 +2296,20 @@
       "localBasename": "game_ui_peakjihad6v6banpickmodepanel.bundle",
       "fileHash": "ab2778124bc60cc0f22e2aa2f44e29cd"
     },
+    "DefaultPackage/game_ui_peakjihadautoopen": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/35cb4641b1fac58c9dbce4fc59c7b250",
+      "localBasename": "game_ui_peakjihadautoopen.bundle",
+      "fileHash": "35cb4641b1fac58c9dbce4fc59c7b250"
+    },
+    "DefaultPackage/game_ui_peakjihadfirstpage": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5bc0b4555c4d102e362a11a8e5c8a909",
+      "localBasename": "game_ui_peakjihadfirstpage.bundle",
+      "fileHash": "5bc0b4555c4d102e362a11a8e5c8a909"
+    },
     "DefaultPackage/game_ui_petawakemain": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ec88d244f1ef2aa7269fae96692052a7",
       "localBasename": "game_ui_petawakemain.bundle",
       "fileHash": "ec88d244f1ef2aa7269fae96692052a7"
-    },
-    "DefaultPackage/game_ui_petbag": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e1b3ba7afd39daa6f354295427adff6c",
-      "localBasename": "game_ui_petbag.bundle",
-      "fileHash": "e1b3ba7afd39daa6f354295427adff6c"
-    },
-    "DefaultPackage/game_ui_pethandbookinfo": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/6ea3ce9f383ad8b2ff1d469905a1dd8d",
-      "localBasename": "game_ui_pethandbookinfo.bundle",
-      "fileHash": "6ea3ce9f383ad8b2ff1d469905a1dd8d"
     },
     "DefaultPackage/game_ui_petrecruit": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/154f65eb5e944eef116fb0bc6254be2f",
@@ -2300,6 +2320,16 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5a5971fea69de02a322959e79feaf14f",
       "localBasename": "game_ui_pettour.bundle",
       "fileHash": "5a5971fea69de02a322959e79feaf14f"
+    },
+    "DefaultPackage/game_ui_puchushow": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/65546e689dbfd5881199082d0faed3b5",
+      "localBasename": "game_ui_puchushow.bundle",
+      "fileHash": "65546e689dbfd5881199082d0faed3b5"
+    },
+    "DefaultPackage/game_ui_puchushowactivity": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/d22d8f79a66a83bc366f0abc6fa81049",
+      "localBasename": "game_ui_puchushowactivity.bundle",
+      "fileHash": "d22d8f79a66a83bc366f0abc6fa81049"
     },
     "DefaultPackage/game_ui_purchasepop": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/46c7623a3cf115227eb61e7516731ac1",
@@ -2361,6 +2391,11 @@
       "localBasename": "game_ui_schoolstartsell.bundle",
       "fileHash": "4a3731524f43c9501d7eb023bbbd56d6"
     },
+    "DefaultPackage/game_ui_scratchcard": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b65e1e83b9105302f3bd5f90713192a3",
+      "localBasename": "game_ui_scratchcard.bundle",
+      "fileHash": "b65e1e83b9105302f3bd5f90713192a3"
+    },
     "DefaultPackage/game_ui_seafishingactivity": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/bff80209e9250181d6108c24f78c1f34",
       "localBasename": "game_ui_seafishingactivity.bundle",
@@ -2372,9 +2407,14 @@
       "fileHash": "880c95ba2f1aa61478ef856f8e7ebc9a"
     },
     "DefaultPackage/game_ui_seerinterstellarpassport": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/781917987c15141b465001adb633e401",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/be9e7a0e0e601c4dd5c6520f3311da16",
       "localBasename": "game_ui_seerinterstellarpassport.bundle",
-      "fileHash": "781917987c15141b465001adb633e401"
+      "fileHash": "be9e7a0e0e601c4dd5c6520f3311da16"
+    },
+    "DefaultPackage/game_ui_settlement": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/98c74032078536ce08f4b63cf32adad1",
+      "localBasename": "game_ui_settlement.bundle",
+      "fileHash": "98c74032078536ce08f4b63cf32adad1"
     },
     "DefaultPackage/game_ui_shenluoshenghuaskin1": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f458d7a12e971d507ed58e638918139b",
@@ -2441,11 +2481,6 @@
       "localBasename": "game_ui_springskingift.bundle",
       "fileHash": "ce52c3961e3df23269f839b720e42de0"
     },
-    "DefaultPackage/game_ui_springskinsell": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2b87762905325352f884d3792ba76be0",
-      "localBasename": "game_ui_springskinsell.bundle",
-      "fileHash": "2b87762905325352f884d3792ba76be0"
-    },
     "DefaultPackage/game_ui_starsailplan": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/c841e61830fb58a5d56dde5e4542dfa7",
       "localBasename": "game_ui_starsailplan.bundle",
@@ -2496,11 +2531,6 @@
       "localBasename": "game_ui_taptapsign1017.bundle",
       "fileHash": "5b7031cce70b61fca378471b5216a7c3"
     },
-    "DefaultPackage/game_ui_taptapsign1219": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7c4fe538e52abb79bdeba33df6ed7606",
-      "localBasename": "game_ui_taptapsign1219.bundle",
-      "fileHash": "7c4fe538e52abb79bdeba33df6ed7606"
-    },
     "DefaultPackage/game_ui_tendayspetsign": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5693854218947c134bb3add9e1a17650",
       "localBasename": "game_ui_tendayspetsign.bundle",
@@ -2522,9 +2552,9 @@
       "fileHash": "da3d346f5f537f8a47c3c346b869c575"
     },
     "DefaultPackage/game_ui_turnlinesgame": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/20ece0a447fa985484bb6b97b804bcc0",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/969f095fb3af1c3a7e71e0a988307881",
       "localBasename": "game_ui_turnlinesgame.bundle",
-      "fileHash": "20ece0a447fa985484bb6b97b804bcc0"
+      "fileHash": "969f095fb3af1c3a7e71e0a988307881"
     },
     "DefaultPackage/game_ui_ugcbanner0313": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/516c3ebdc1b8a83b76edbcefaa4f25aa",
@@ -2536,11 +2566,6 @@
       "localBasename": "game_ui_ugcspread.bundle",
       "fileHash": "766492db1e386a60b25ff962a7fdd562"
     },
-    "DefaultPackage/game_ui_ugcspread0102": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4d638f04c925edd734b81453c92b4521",
-      "localBasename": "game_ui_ugcspread0102.bundle",
-      "fileHash": "4d638f04c925edd734b81453c92b4521"
-    },
     "DefaultPackage/game_ui_ugcspread0206": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/62389e782dad1ac8c2c1cfe0a82835c3",
       "localBasename": "game_ui_ugcspread0206.bundle",
@@ -2550,6 +2575,11 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ba62eadefc2383537e78d8a3897cae30",
       "localBasename": "game_ui_ugctg0313.bundle",
       "fileHash": "ba62eadefc2383537e78d8a3897cae30"
+    },
+    "DefaultPackage/game_ui_universalinfopop": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/78e9d5a0d7d8bed0fd4d302ad0ff62a7",
+      "localBasename": "game_ui_universalinfopop.bundle",
+      "fileHash": "78e9d5a0d7d8bed0fd4d302ad0ff62a7"
     },
     "DefaultPackage/game_ui_vehiclediscountedsalespanel1": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/79e70fddd34e08186088711eb7587ad7",
@@ -2562,29 +2592,34 @@
       "fileHash": "ee7b3e3e70c03bd9630413a99a76879c"
     },
     "DefaultPackage/game_ui_weeklyupdateguidelines": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/7fd509ec33a45b4c42f9cbc41b01fa5d",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/338fd89843e06bc58c6fbf36b2ccf20b",
       "localBasename": "game_ui_weeklyupdateguidelines.bundle",
-      "fileHash": "7fd509ec33a45b4c42f9cbc41b01fa5d"
-    },
-    "DefaultPackage/game_ui_wuweijuezheskinpanel": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/aa8b9d4ab5d3609a7d26686231cf2174",
-      "localBasename": "game_ui_wuweijuezheskinpanel.bundle",
-      "fileHash": "aa8b9d4ab5d3609a7d26686231cf2174"
-    },
-    "DefaultPackage/game_ui_yearvip2026": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a4b8f4737aedb7188ca95ccae90b9064",
-      "localBasename": "game_ui_yearvip2026.bundle",
-      "fileHash": "a4b8f4737aedb7188ca95ccae90b9064"
+      "fileHash": "338fd89843e06bc58c6fbf36b2ccf20b"
     },
     "DefaultPackage/game_ui_zhenshiqtld": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f416559490ffd188a0b8d620b244edfd",
       "localBasename": "game_ui_zhenshiqtld.bundle",
       "fileHash": "f416559490ffd188a0b8d620b244edfd"
     },
+    "DefaultPackage/art_ui_maps_map_107": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/caa8c1bc437df2f8cbd5b3fa719ac6bb",
+      "localBasename": "art_ui_maps_map_107.bundle",
+      "fileHash": "caa8c1bc437df2f8cbd5b3fa719ac6bb"
+    },
     "DefaultPackage/art_ui_maps_map_2169": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/71dc1d3eba6b7cbc2a1a4371062b5e4a",
       "localBasename": "art_ui_maps_map_2169.bundle",
       "fileHash": "71dc1d3eba6b7cbc2a1a4371062b5e4a"
+    },
+    "DefaultPackage/art_ui_maps_map_2171_2171": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/30e2d0b6b1a98556fa77103da1bbc8f2",
+      "localBasename": "art_ui_maps_map_2171_2171.bundle",
+      "fileHash": "30e2d0b6b1a98556fa77103da1bbc8f2"
+    },
+    "DefaultPackage/art_ui_maps_map_2171": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ea1bc5a5b3c3fa135a1be83fdc644e7c",
+      "localBasename": "art_ui_maps_map_2171.bundle",
+      "fileHash": "ea1bc5a5b3c3fa135a1be83fdc644e7c"
     },
     "DefaultPackage/settings": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/66a83bbb9022fd9718a21ae46d5ef9f7",
@@ -2606,6 +2641,16 @@
       "localBasename": "game_bg_static_aprilfoolsdayskinwarmpanel.bundle",
       "fileHash": "3638026734d9f5e76dde51d691a96801"
     },
+    "DefaultPackage/game_bg_static_ashespathentrypanel": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/601043c3e7ca3f51fa1678ccd6fafe25",
+      "localBasename": "game_bg_static_ashespathentrypanel.bundle",
+      "fileHash": "601043c3e7ca3f51fa1678ccd6fafe25"
+    },
+    "DefaultPackage/game_bg_static_aurumminershow": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8a794995f7e096ecdfde1188e0a5b364",
+      "localBasename": "game_bg_static_aurumminershow.bundle",
+      "fileHash": "8a794995f7e096ecdfde1188e0a5b364"
+    },
     "DefaultPackage/game_bg_static_autocard": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/98ab1bbac5ac3230231c5640e7abc241",
       "localBasename": "game_bg_static_autocard.bundle",
@@ -2621,20 +2666,10 @@
       "localBasename": "game_bg_static_cavernshuttle.bundle",
       "fileHash": "9fd0e7e7330f4dd715b289fc35bdffc6"
     },
-    "DefaultPackage/game_bg_static_chaostias": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/74da8f601d1afb7901b2f22bab953b76",
-      "localBasename": "game_bg_static_chaostias.bundle",
-      "fileHash": "74da8f601d1afb7901b2f22bab953b76"
-    },
     "DefaultPackage/game_bg_static_classicpetassemblepanel": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/34230e7125836cd33225e40888937dd1",
       "localBasename": "game_bg_static_classicpetassemblepanel.bundle",
       "fileHash": "34230e7125836cd33225e40888937dd1"
-    },
-    "DefaultPackage/game_bg_static_connectlinesgame": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8c3151c48147d8dcb08c08b6399aa41d",
-      "localBasename": "game_bg_static_connectlinesgame.bundle",
-      "fileHash": "8c3151c48147d8dcb08c08b6399aa41d"
     },
     "DefaultPackage/game_bg_static_diamondmonthlycard": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/832cf97bf8c6d41490151d98c4c6bbb8",
@@ -2680,6 +2715,11 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/54091b6011806a60b1fdc242e38d91bd",
       "localBasename": "game_bg_static_rizeevolutionaryformsellpanel.bundle",
       "fileHash": "54091b6011806a60b1fdc242e38d91bd"
+    },
+    "DefaultPackage/game_bg_static_scratchcard": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/529fee88a925f4cc298ef2d0837d6cbc",
+      "localBasename": "game_bg_static_scratchcard.bundle",
+      "fileHash": "529fee88a925f4cc298ef2d0837d6cbc"
     },
     "DefaultPackage/game_bg_static_seeractivity": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/fc353c0b5c668afd401b9344971ee19a",
@@ -2731,30 +2771,15 @@
       "localBasename": "art_autocard_scenecardprefab_addition.bundle",
       "fileHash": "2eca86f5b4be1ab9ed78ac2deeabaf0f"
     },
-    "DefaultPackage/art_autocard_scenecardprefab": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8f42d69e5f2ba85d7a82e35bbb8ce21c",
-      "localBasename": "art_autocard_scenecardprefab.bundle",
-      "fileHash": "8f42d69e5f2ba85d7a82e35bbb8ce21c"
-    },
     "DefaultPackage/art_autocard_uicardprefab_addition": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/41d6175faf8d46160ff971a3d28dba88",
       "localBasename": "art_autocard_uicardprefab_addition.bundle",
       "fileHash": "41d6175faf8d46160ff971a3d28dba88"
     },
-    "DefaultPackage/art_autocard_uicardprefab": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/40005d7489b8505175adb4b162ec4701",
-      "localBasename": "art_autocard_uicardprefab.bundle",
-      "fileHash": "40005d7489b8505175adb4b162ec4701"
-    },
     "DefaultPackage/art_autocard_effect_bubuzhongzi": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/1c117a8a2fde34fd0310f58343eb5332",
       "localBasename": "art_autocard_effect_bubuzhongzi.bundle",
       "fileHash": "1c117a8a2fde34fd0310f58343eb5332"
-    },
-    "DefaultPackage/art_autocard_effect": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/a376c91eb8337adf011da1174acb0aaf",
-      "localBasename": "art_autocard_effect.bundle",
-      "fileHash": "a376c91eb8337adf011da1174acb0aaf"
     },
     "DefaultPackage/art_autocard_effect_xiaohuohou": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e42d7cff1d1d53f938d65367dd5aafff",
@@ -2766,20 +2791,10 @@
       "localBasename": "art_autocard_effect_yiyou.bundle",
       "fileHash": "7128f59914bdedc86074e3acedb0d6bd"
     },
-    "DefaultPackage/art_autocard_texture_cards": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/beb10bdae3896afd8f35a0b44158b3d4",
-      "localBasename": "art_autocard_texture_cards.bundle",
-      "fileHash": "beb10bdae3896afd8f35a0b44158b3d4"
-    },
     "DefaultPackage/art_autocard_texture_common": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8de7a295c6ada4b97d615539fca3987a",
       "localBasename": "art_autocard_texture_common.bundle",
       "fileHash": "8de7a295c6ada4b97d615539fca3987a"
-    },
-    "DefaultPackage/art_autocard_texture_effects": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2d26ef43d0100cd4d7c072931925406e",
-      "localBasename": "art_autocard_texture_effects.bundle",
-      "fileHash": "2d26ef43d0100cd4d7c072931925406e"
     },
     "DefaultPackage/art_autocard_texture_minipet": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/1c924493d280472bc6f00dcb62b306f6",
@@ -2976,30 +2991,15 @@
       "localBasename": "art_autocard_data.bundle",
       "fileHash": "19ffc537d4bc19a6b3ff9c3789ddf90b"
     },
-    "DefaultPackage/art_autocard_ad_feedback": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/359400f0641ca76b7ba0135a9b37b33f",
-      "localBasename": "art_autocard_ad_feedback.bundle",
-      "fileHash": "359400f0641ca76b7ba0135a9b37b33f"
-    },
-    "DefaultPackage/art_autocard_ad_invite": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f8fafc35ec272a7a3551b694fe5f1a12",
-      "localBasename": "art_autocard_ad_invite.bundle",
-      "fileHash": "f8fafc35ec272a7a3551b694fe5f1a12"
-    },
     "DefaultPackage/art_autocard_video": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/9905126a5dd2a5032114e35a0d09635e",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/92dc1ec10397d038bbcda9c6a57908f2",
       "localBasename": "art_autocard_video.bundle",
-      "fileHash": "9905126a5dd2a5032114e35a0d09635e"
+      "fileHash": "92dc1ec10397d038bbcda9c6a57908f2"
     },
     "DefaultPackage/defaultpackage_share_assets_art_effects_material.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4422cdda0cb67e26ceb943703cf2f547",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/5b8092d8e651efe714a1a46f7bd3ab8b",
       "localBasename": "defaultpackage_share_assets_art_effects_material.bundle.bundle",
-      "fileHash": "4422cdda0cb67e26ceb943703cf2f547"
-    },
-    "DefaultPackage/defaultpackage_share_assets_art_effects_model.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/2621d6e740842b5210a47451090f33b4",
-      "localBasename": "defaultpackage_share_assets_art_effects_model.bundle.bundle",
-      "fileHash": "2621d6e740842b5210a47451090f33b4"
+      "fileHash": "5b8092d8e651efe714a1a46f7bd3ab8b"
     },
     "DefaultPackage/defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/1bdef610b80e7c06ce96925c5836a220",
@@ -3007,9 +3007,9 @@
       "fileHash": "1bdef610b80e7c06ce96925c5836a220"
     },
     "DefaultPackage/defaultpackage_share_assets_art_effects_texture_new_common.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b00c6b4037f01f099ab332a02d9b6061",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/bb38806daeb793c9df7235d1a641887c",
       "localBasename": "defaultpackage_share_assets_art_effects_texture_new_common.bundle.bundle",
-      "fileHash": "b00c6b4037f01f099ab332a02d9b6061"
+      "fileHash": "bb38806daeb793c9df7235d1a641887c"
     },
     "DefaultPackage/defaultpackage_share_assets_thirdparty_spine_editor_spine-unity_editor_gui.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/d7ec5289f674fd497ebcc3a6ce3bb42e",
@@ -3030,16 +3030,6 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/fc819dede111e85fbb74384782edb6ca",
       "localBasename": "defaultpackage_share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle.bundle",
       "fileHash": "fc819dede111e85fbb74384782edb6ca"
-    },
-    "DefaultPackage/defaultpackage_share_assets_game_ui_autocard_images.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/07dfbbe74dd267d013bfeb9ddd6ca0f4",
-      "localBasename": "defaultpackage_share_assets_game_ui_autocard_images.bundle.bundle",
-      "fileHash": "07dfbbe74dd267d013bfeb9ddd6ca0f4"
-    },
-    "DefaultPackage/defaultpackage_share_assets_art_autocard_material.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/f0bbf3c1674cf7c593637cf74c9e84e0",
-      "localBasename": "defaultpackage_share_assets_art_autocard_material.bundle.bundle",
-      "fileHash": "f0bbf3c1674cf7c593637cf74c9e84e0"
     },
     "DefaultPackage/defaultpackage_share_assets_art_environmental_autocard_textures.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/27c8f65b1a0f71457a20b7b72d4f1466",
@@ -3082,14 +3072,24 @@
       "fileHash": "cd4ace5d1e2117fe43f7ba9a54f83c33"
     },
     "DefaultPackage/defaultpackage_share_assets_art_effects_material_new.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/25480ff00f0758583892dd7b9e194f41",
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/db9041b7a0527f1cd045cf00478b7837",
       "localBasename": "defaultpackage_share_assets_art_effects_material_new.bundle.bundle",
-      "fileHash": "25480ff00f0758583892dd7b9e194f41"
+      "fileHash": "db9041b7a0527f1cd045cf00478b7837"
     },
-    "DefaultPackage/defaultpackage_share_assets_game_ui_announcement_images.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8c912721320b40ebf96f1ed4c2a69919",
-      "localBasename": "defaultpackage_share_assets_game_ui_announcement_images.bundle.bundle",
-      "fileHash": "8c912721320b40ebf96f1ed4c2a69919"
+    "DefaultPackage/defaultpackage_share_assets_game_ui_funnybubbleshoot_images.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/54d52b48291ebba56375ffe3747ce576",
+      "localBasename": "defaultpackage_share_assets_game_ui_funnybubbleshoot_images.bundle.bundle",
+      "fileHash": "54d52b48291ebba56375ffe3747ce576"
+    },
+    "DefaultPackage/defaultpackage_share_assets_game_ui_turnlinesgame_images.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/706cfc7b1e8e0fd395d073a83aebc4f6",
+      "localBasename": "defaultpackage_share_assets_game_ui_turnlinesgame_images.bundle.bundle",
+      "fileHash": "706cfc7b1e8e0fd395d073a83aebc4f6"
+    },
+    "DefaultPackage/defaultpackage_share_assets_art_autocard_effects_material.bundle": {
+      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e711bb6e702f020fe6e6f17883716a3d",
+      "localBasename": "defaultpackage_share_assets_art_autocard_effects_material.bundle.bundle",
+      "fileHash": "e711bb6e702f020fe6e6f17883716a3d"
     },
     "DefaultPackage/defaultpackage_share_assets_art_autocard_effects_material_new.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/8a62e34a65552c4b561322c8bd575eef",
@@ -3110,11 +3110,6 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/4598a1ab658f1eaf2e393cc6c6994ed2",
       "localBasename": "defaultpackage_share_assets_art_autocard_spine_character_yiyou.bundle.bundle",
       "fileHash": "4598a1ab658f1eaf2e393cc6c6994ed2"
-    },
-    "DefaultPackage/defaultpackage_share_assets_art_autocard_effects_material.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/e711bb6e702f020fe6e6f17883716a3d",
-      "localBasename": "defaultpackage_share_assets_art_autocard_effects_material.bundle.bundle",
-      "fileHash": "e711bb6e702f020fe6e6f17883716a3d"
     },
     "DefaultPackage/defaultpackage_share_assets_art_autocard_effects_model.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/12268642b01aecdf29aef7ff3aafffdb",
@@ -3150,11 +3145,6 @@
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/b5e4e3acc83dd23f3d2b43ef3d3c5b23",
       "localBasename": "defaultpackage_share_assets_game_ui_markadvanced_images.bundle.bundle",
       "fileHash": "b5e4e3acc83dd23f3d2b43ef3d3c5b23"
-    },
-    "DefaultPackage/defaultpackage_share_assets_game_ui_funnybubbleshoot_images.bundle": {
-      "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/54d52b48291ebba56375ffe3747ce576",
-      "localBasename": "defaultpackage_share_assets_game_ui_funnybubbleshoot_images.bundle.bundle",
-      "fileHash": "54d52b48291ebba56375ffe3747ce576"
     },
     "DefaultPackage/defaultpackage_share_assets_game_ui_yearvip2026_images.bundle": {
       "remoteFilename": "https://newseer.61.com/Assets/StandaloneWindows64/DefaultPackage/ddfe64e3903959d07e292696979d8116",
