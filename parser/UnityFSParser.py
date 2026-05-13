@@ -14,15 +14,16 @@ for filename in os.listdir(export_dir):
         os.remove(file_path)
 
 env = UnityPy.load(config_path)
+
+idx = 0
 for obj in env.objects:
-    if obj.type.name != "Sprite":
+    if obj.type.name != "Sprite" and obj.type.name != "Texture2D":
         continue
 
     data = obj.read()
     name = data.m_Name
 
-    if not name.isdigit():
+    if not (name.isdigit() or name.startswith("sactx")):
         continue
-
     path = os.path.join(export_dir, f"{name}.png")
     data.image.save(path)
