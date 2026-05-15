@@ -48,7 +48,7 @@ def main():
             source_images[name] = (img, compute_phash(img))
 
     if not sactx_groups:
-        raise RuntimeError("未找到 sactx 预告图片")
+        raise RuntimeError("未找到 sactx-* 预告图片（如 sactx-0, sactx-1）")
 
     if not source_images:
         raise RuntimeError("未找到数字命名的源图片（如 000.png, 111.png）")
@@ -80,10 +80,10 @@ def main():
     if "sactx-1" in group_match_count:
         target_group = "sactx-1"
     else:
-        target_group = sorted(
+        target_group, _ = sorted(
             group_match_count.items(),
             key=lambda item: (-item[1], item[0]),
-        )[0][0]
+        )[0]
 
     print(f"使用分组: {target_group}")
     preview_images = [img for img, group in best_matches if group == target_group]
