@@ -47,14 +47,15 @@ def main():
         elif is_digit_name(name):
             source_images[name] = (img, compute_phash(img))
 
-    if "sactx-1" not in sactx_groups:
-        raise RuntimeError("未找到 sactx-1 预告图片")
+    if not sactx_groups:
+        raise RuntimeError("未找到 sactx-* 预告图片（如 sactx-0, sactx-1）")
 
     if not source_images:
         raise RuntimeError("未找到数字命名的源图片（如 000.png, 111.png）")
 
     # 将每个源图片匹配到 pHash 距离最近的 sactx 组
-    preview_images = []
+    best_matches = []
+    group_match_count = {}
 
     for src_name, (src_img, src_hash) in sorted(source_images.items()):
         best_group = None
@@ -73,11 +74,25 @@ def main():
             f"{src_name} -> {best_sactx_name} ({best_group}), pHash diff: {best_diff}"
         )
 
-        if best_group == "sactx-1":
-            preview_images.append(src_img)
+        best_matches.append((src_img, best_group))
+        group_match_count[best_group] = group_match_count.get(best_group, 0) + 1
+
+    if not group_match_count:
+        raise RuntimeError("未找到可匹配任意 sactx 分组的源图片")
+
+    if group_match_count.get("sactx-1", 0) > 0:
+        target_group = "sactx-1"
+    else:
+        target_group, _ = sorted(
+            group_match_count.items(),
+            key=lambda item: (-item[1], item[0]),
+        )[0]
+
+    print(f"使用分组: {target_group}")
+    preview_images = [img for img, group in best_matches if group == target_group]
 
     if not preview_images:
-        raise RuntimeError("未找到匹配 sactx-1 的源图片")
+        raise RuntimeError(f"未找到匹配 {target_group} 的源图片")
 
     # 垂直拼接匹配到的源图片
     if len(preview_images) == 1:
