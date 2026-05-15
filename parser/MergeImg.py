@@ -77,7 +77,10 @@ def main():
         best_matches.append((src_img, best_group))
         group_match_count[best_group] = group_match_count.get(best_group, 0) + 1
 
-    if "sactx-1" in group_match_count:
+    if not group_match_count:
+        raise RuntimeError("未找到可匹配任意 sactx 分组的源图片")
+
+    if group_match_count.get("sactx-1", 0) > 0:
         target_group = "sactx-1"
     else:
         target_group, _ = sorted(
