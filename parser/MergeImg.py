@@ -13,7 +13,7 @@ MAX_WIDTH = 1024
 def is_digit_name(name):
     """检查文件名（不含扩展名）是否为纯数字"""
     base = os.path.splitext(name)[0]
-    return base.isdigit()
+    return base.isdigit() or base.startswith('u')
 
 
 def compute_phash(img):
@@ -24,6 +24,19 @@ def compute_phash(img):
 
 
 def main():
+    # 如果存在 u端下期预告.png，直接将其作为预告图输出
+    yuGao_path = os.path.join(IMG_DIR, "u端下期预告.png")
+    if os.path.exists(yuGao_path):
+        img = Image.open(yuGao_path)
+        canvas = img.copy()
+        if canvas.width > MAX_WIDTH:
+            ratio = MAX_WIDTH / canvas.width
+            new_height = int(canvas.height * ratio)
+            canvas = canvas.resize((MAX_WIDTH, new_height), Image.LANCZOS)
+        canvas.save(OUTPUT_PATH)
+        print(f"使用 u端下期预告.png 直接作为预告图，已生成 {OUTPUT_PATH}（宽度 ≤ {MAX_WIDTH}）")
+        return
+
     sactx_groups = {}  # group_name -> [(filename, phash), ...]
     source_images = {}  # filename -> (Image, phash)
     crop_height = None

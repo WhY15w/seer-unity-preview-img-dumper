@@ -23,7 +23,7 @@ for obj in env.objects:
     data = obj.read()
     name = data.m_Name
 
-    if not (name.isdigit() or name.startswith("sactx")):
-        continue
+    #if not (name.isdigit() or name.startswith("sactx")):
+        #continue
     path = os.path.join(export_dir, f"{name}.png")
     data.image.save(path)
